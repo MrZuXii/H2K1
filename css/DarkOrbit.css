@@ -1,0 +1,25 @@
+.menud
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.linkd
+{
+    text-decoration: none;
+}
+.linkd >a
+{
+    display: block;
+    height: 16px;
+    padding: 12px 12px;
+    width: 200px;
+    margin: 2px auto 2px auto;
+    border: 2px solid black;
+
+}
+font-size: 28px;
+    color: black;
+    border: 2px solid black;
+    padding: 9px 17px;
+    font-weight: 800;

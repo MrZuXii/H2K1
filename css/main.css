@@ -1,0 +1,126 @@
+/* 1.Główne */
+body {
+	margin: 0px;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.2;
+	color: black;
+}
+main {
+	margin-top: 57px;
+}
+/* Koniec Główne */
+
+/* 2.Nawigacja */
+.nav_bar {
+	position: fixed;
+    background: #151515;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 7px 0 7px 0;
+    z-index: 2;
+    height: 40px;
+    color: #fff;
+}
+#logo {
+	display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    height: 16px;
+    padding: 12px 12px;
+}
+#logo:hover {
+	border: 1px solid #fff;
+	padding: 11px 11px;
+	cursor: pointer;
+}
+#logo h1{
+	margin:0;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: 400;
+}
+#menu {
+	display: none;
+    margin: 0;
+    justify-content: flex-end;
+    display: flex;
+	background: #151515;
+}
+.menu
+{
+	color: white;
+    display: block;
+    text-decoration: none;
+}
+.menu > a
+{
+    color: white !important;
+}
+.link_menu:hover {
+	border: 1px solid #fff;
+	padding: 11px 11px;
+}
+.link_menu {
+	text-decoration: none;
+    display: block;
+    height: 16px;
+    padding: 11px 12px;
+}
+a {
+	text-decoration: none;
+}
+.hamburger {
+    display: none;
+    width: 25px;
+    height: 3px;
+    box-shadow: inset 0 0 50px 0, 0 -9px, 0 9px;
+    margin: 18px 7px;	
+}
+/* Koniec Nawigacji */
+/* Sekcje */
+.welcome {
+    color: black;
+    font-size: 3rem;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#connect {
+	text-align: center;	
+}
+#connect a {
+    font-size: 28px;
+    color: black;
+    border: 2px solid black;
+    padding: 9px 17px;
+    font-weight: 800;
+}
+#ts3 {
+	background: url(../monitor.jpg) center no-repeat;
+	width: 100%;
+    height: 849px;
+}
+.ts3viewer {
+	width: 780px;
+    margin: auto;
+    height: 492px;
+    padding-top: 86px;
+}
+#wilget {
+	text-align: center;
+	height: 333px; 
+}
+/* Koniec Sekcje */
+/* Footer */
+#stopka {
+	height: 150px;
+	width: 100%;
+    background: #151515;
+    color: white;
+}
+#info {
+    text-align: center;
+    padding: 55px 0 55px 0;
+    font-size: 8px;
+}

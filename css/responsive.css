@@ -1,0 +1,86 @@
+@media (max-width: 800px) {
+		
+	.hamburger
+	{
+		display: inline-block;	
+	}
+	#menu
+	{
+		display: none;
+		flex-direction: column;
+		padding: 0 !important;
+		width: 100%;
+		margin-top: 47px;
+		text-align: center;	
+	}
+	.menu
+	{
+		width: 100%;
+	}
+	#mobile {
+		height: 40px;
+		width: 40px;
+		margin: 0;
+		float: right;
+		padding: 0px;
+	}
+	#mobile:hover {
+		height: 40px;
+		width: 40px;
+		padding: 0px;
+		cursor: pointer;
+		color: black;
+		background: #fff;
+		border-radius: 100%;
+	}
+	#ts3 {
+		background: url(../phone.jpg) center no-repeat;
+		height: 1095px;
+	}
+	.ts3viewer {
+		width: 460px;
+		margin: auto;
+		height: 765px;
+		padding-top: 150px;
+	}
+	.link_menu {
+		padding: 20px;	
+	}
+	.link_menu:hover {
+		padding: 19px;
+	}
+}
+@media (max-width: 600px) {
+	#ts3 {
+		height: 1022px;
+		background-size: 1090px;
+	}
+	.ts3viewer {
+		width: 415px;
+		height: 768px;
+	}
+}
+@media (max-width: 460px) {
+	#ts3 {
+		height: 959px;
+		background-size: 994px;
+	}
+	.ts3viewer {
+		width: 371px;
+		height: 653px;
+	}
+}
+@media (max-width: 410px) {
+	#ts3 {
+		height: 874px;
+		background-size: 867px;
+	}
+	.ts3viewer {
+		width: 330px;
+		height: 571px;
+	}
+}
+
+@media (min-width: 800px) {
+     #menu {display: flex !important;;}
+}
