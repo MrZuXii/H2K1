@@ -72,6 +72,7 @@ main {
 	color: white;
     display: block;
     text-decoration: none;
+	background: #24292e;
 }
 .menu > a
 {
@@ -117,14 +118,20 @@ a {
 #ts3 {
 	background: url(../monitor.png) center no-repeat;
 	width: 100%;
-    height: 849px;
+    height: 670px;
 }
 .ts3viewer {
-	width: 773px;
+    width: 792px;
     margin: auto;
     height: 492px;
     padding-top: 90px;
 }
+.v242867_tvjgrg13b {
+		width: 780px;
+		overflow-y: scroll;
+		height: 492px;
+		box-sizing: border-box;
+	}
 #wilget {
 	text-align: center;
 	height: 333px; 

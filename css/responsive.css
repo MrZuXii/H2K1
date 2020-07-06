@@ -13,6 +13,10 @@
 		margin-top: 47px;
 		text-align: center;	
 	}
+	.v242867_tvjgrg13b {
+		width: 456px !important;
+		height: 722px !important;
+	}
 	.menu
 	{
 		width: 100%;
@@ -34,11 +38,11 @@
 		border-radius: 100%;
 	}
 	#ts3 {
-		background: url(../phone.jpg) center no-repeat;
+		background: url(../phone.png) center no-repeat;
 		height: 1095px;
 	}
 	.ts3viewer {
-		width: 460px;
+		width: 455px;
 		margin: auto;
 		height: 765px;
 		padding-top: 150px;
@@ -51,6 +55,10 @@
 	}
 }
 @media (max-width: 600px) {
+	.v242867_tvjgrg13b {
+		width: 415px !important;
+		height: 722px !important;
+	}
 	#ts3 {
 		height: 1022px;
 		background-size: 1090px;
@@ -61,6 +69,10 @@
 	}
 }
 @media (max-width: 460px) {
+	.v242867_tvjgrg13b {
+		width: 415px !important;
+		height: 722px !important;
+	}
 	#ts3 {
 		height: 959px;
 		background-size: 994px;
